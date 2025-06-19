@@ -2,7 +2,26 @@ p {
     color: red;
 }
 
+body {
+    background-color: ghostwhite;
+}
+
+.container {
+    display: flex;
+}
+
+.right-col {
+    flex-direction: column;
+    margin-left: 1em;
+
+}
+
 .fluff {
-    background-color: gainsboro;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+}
+
+img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
 }
